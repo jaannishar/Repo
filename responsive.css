@@ -1,0 +1,38 @@
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 10%;
+}
+.line{
+    width: 33px;
+    background-color: aliceblue;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+@media only screen and (max-width: 1170px) {
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        width: 100%;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    .burger{
+        display: block;
+    }
+    #search{
+        width: 100%;
+    }
+    .h-nav{
+        height: 50px;
+    }
+    .v-class{
+        opacity: 0;
+    }
+}
